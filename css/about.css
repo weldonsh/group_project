@@ -40,3 +40,6 @@ button {
 button:hoover {
         background-color: rgb(255, 192, 20);
 }
+.icon-bar a {
+  text-decoration: none;
+}

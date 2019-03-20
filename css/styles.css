@@ -1,4 +1,16 @@
 
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 10px 20px;
+}
+
 .topnav {
       background-color: rgb(255,255, 255);
       overflow: hidden;
@@ -26,15 +38,17 @@
 
 
 img {
-  display: flex;
+  display: block;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin: 0 auto;
+  max-width: 100%;
 }
 
 div {
-        min-height: 100vh;
-        width: 100vw;
+  min-height: 100vh;
+
 }
 
 div.contrast {
@@ -46,12 +60,18 @@ div.contrast {
           flex-direction: column;
 }
 h1 {
-          font-size: 3em;
+          font-size: 3.5em;
           font-family: Didot;
-          margin: 5px;
+          margin: 40px;
 }
 p {
           font-size: 2em;
+          font-family: Didot;
+          margin: 20px;
+}
+p1 {
+
+          font-size: 1.3em;
           font-family: Didot;
           margin: 5px;
 }
@@ -85,4 +105,8 @@ h2 {
           transition: all 0.3s ease;
           color: white;
           font-size: 20px;
+}
+
+.icon-bar a {
+  text-decoration: none;
 }

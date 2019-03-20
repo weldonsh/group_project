@@ -28,3 +28,6 @@ input[type=submit]:hover {
         background-color: rgb(255,192,20);
         padding: 20px;
 }
+.icon-bar a {
+  text-decoration: none;
+}
