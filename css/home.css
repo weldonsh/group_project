@@ -80,3 +80,6 @@ h2 {
           color: white;
           font-size: 20px;
 }
+.icon-bar a {
+  text-decoration: none;
+}
