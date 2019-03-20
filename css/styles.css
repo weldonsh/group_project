@@ -83,7 +83,7 @@ p2 {
           margin: 10px;
 }
 
-button {
+a.back-to-top {
           display: none;
           position: fixed;
           bottom: 20px;
