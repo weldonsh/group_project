@@ -28,6 +28,7 @@ body {
       padding: 14px 16px;
       text-decoration: none;
       font-size: 17px;
+      font-family: Didot;
 }
 .topnav: style {
       float: left;
@@ -62,18 +63,24 @@ div.contrast {
 h1 {
           font-size: 3.5em;
           font-family: Didot;
-          margin: 40px;
+          margin: 30px;
 }
 p {
           font-size: 2em;
           font-family: Didot;
-          margin: 20px;
+          margin: 30px;
 }
 p1 {
 
-          font-size: 1.3em;
+          font-size: 1.4em;
           font-family: Didot;
-          margin: 5px;
+          margin: 10px;
+}
+p2 {
+
+          font-size: 1.4em;
+          font-family: Didot;
+          margin: 10px;
 }
 
 button {
