@@ -22,50 +22,39 @@
 
       <body>
         <link rel="styleshet" type="text/css" href="styles.css">
-
-
-        <!--Text-->
-        <div =id"contact_us">
-
-          <br />
-          <br />
-
-          <h1>Get In Touch</h1>
-          <center>
-            <p>For any enquiries, you can contact us by filling in the form below.</p>
-          </center>
+        <div class="container">
+          <div style="text-align:center">
+            <h2>Contact Us</h2>
+            <p>Swing by for a cocktail or a pint and leave us a message:</p>
+          </div>
+          <div class="row">
+            <div class="column">
+              <img src="map.jpg" style="width:100%">
+            </div>
+            <div class="column">
+              <form action="/action_page.php">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name...">
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="Your email...">
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                  <option value="UK">UK</option>
+                  <option value="ireland">Ireland</option>
+                  <option value="russia">Russia</option>
+                  <option value="australia">Australia</option>
+                  <option value="canada">Canada</option>
+                  <option value="usa">USA</option>
+                  <option value="china">China</option>
+                  <option value="czech republic">Czech Republic</option>
+                  <option value="japan">Japan</option>
+                </select>
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something..." style="height:170px"></textarea>
+                <input type="submit" value="Submit">
+              </form>
+            </div>
+          </div>
         </div>
-
-        <!--Contact Form-->
-        <fieldset>
-          <div class="form-group">
-            <label for="exampleTextarea">Name</label>
-            <input type="text" name"name" class"form-control" id="name" aria-describedby="emailHelp" placeholder="Enter name">
-          </div>
-          <div class="form-group">
-            <label for="exampleInputEmail1">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-          </div>
-          <div class="form-group">
-            <label for="exampleTextarea">Your Message</label>
-            <textarea name="message" class="form-control" id="Text" rows="3"></textarea>
-          </div>
-          <button type="submit" value="Send Form" class="btn btn-primary">Submit</button>
-        </fieldset>
-      </form>
-
-      <!--Social media icon bar-->
-      <h2 class="icon-bar">
-        <a href="#" class"facebook">
-          <i class="fa fa-facebook"></i>
-        </a>
-        <a href="#" class"instagram">
-          <i class="fa fa-instagram"></i>
-        </a>
-        <a href="#" class"twitter">
-          <i class="fa fa-twitter"></i>
-        </a>
-      </h2>
-      
       <script src ="js/scripts.js"></script>
     </body>
