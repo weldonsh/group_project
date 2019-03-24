@@ -22,6 +22,7 @@
       padding: 12px;
       width: 25%;
       text-align: center;
+      font-family: Didot;
 }
 
 * {
@@ -36,6 +37,7 @@ input[type=text], select, textarea {
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
+  font-family: Didot;
 }
 
 input[type=submit] {
@@ -44,6 +46,7 @@ input[type=submit] {
   padding: 12px 20px;
   border: none;
   cursor: pointer;
+  font-family: Didot;
 }
 
 input[type=submit]:hover {
@@ -55,6 +58,7 @@ input[type=submit]:hover {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 10px;
+  font-family: Didot;
 }
 
 /* Create two columns that float next to eachother */
