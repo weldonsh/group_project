@@ -3,7 +3,6 @@
       overflow: hidden;
 }
 
-
 .topnav {
       display: inline-block;
       border-radius: 5px;
@@ -17,6 +16,7 @@
       font-size: 17px;
       font-family: Didot;
 }
+
 .topnav: style {
       float: left;
       padding: 12px;
@@ -55,4 +55,10 @@ input[type=submit]:hover {
 }
 .icon-bar a {
   text-decoration: none;
+}
+
+fieldset {
+  text-decoration: none;
+  font-size: 17px;
+  font-family: Didot;
 }
