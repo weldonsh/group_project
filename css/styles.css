@@ -4,7 +4,7 @@
   padding: 0;
   text-align: center;
   display: inline-block;
-  font-family: monospace;
+  font-family: Didot;
   font-size: 20px;
 }
 
@@ -129,6 +129,7 @@ h2 {
           transition: all 0.3s ease;
           color: white;
           font-size: 20px;
+          font-family: Didot;
 }
 
 .icon-bar a {
@@ -150,6 +151,7 @@ h2 {
   text-decoration: none;
   margin: 5px 2px;
   border-radius: 50%;
+  font-family: Didot;
 }
 
 .fa:hover {
@@ -164,4 +166,8 @@ h2 {
 .fa-twitter {
   background: #55ACEE;
   color: white;
+}
+
+h3 {
+  font-family: Didot;
 }

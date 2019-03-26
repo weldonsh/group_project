@@ -4,13 +4,14 @@
   padding: 0;
   text-align: center;
   display: inline-block;
-  font-family: monospace;
+  font-family: Didot;
   font-size: 20px;
 }
 
 ul {
   display: inline-block;
   list-style-type: none;
+  font-family: Didot;
 }
 
 header img {
@@ -28,6 +29,7 @@ header {
     display: flex;
     align-items: center;
     box-shadow: 0 0 25px 0 black;
+    font-family: Didot;
 }
 
 header * {
@@ -41,4 +43,5 @@ header li {
 header li a {
       color: black;
       text-decoration: none;
+      font-family: Didot;
   }
