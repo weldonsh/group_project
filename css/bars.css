@@ -1,3 +1,8 @@
+.map {
+    display: flex;
+    justify-content: center;
+}
+
 .nav {
   list-style: none;
   margin: 0;
@@ -44,4 +49,41 @@ header li a {
       color: black;
       text-decoration: none;
       font-family: Didot;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255,192,20);
+  }
+  .center {
+    width: 800px;
+  }
+
+  h3 {
+    text-align: left;
+    font-family: Didot;
+    font-size: 2em;
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+  }
+
+  p {
+    font-size: 1.5em;
+    font-family: Didot;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    color: white;
+  }
+
+  p.quote {
+    font-size: 1.5em;
+    font-family: Didot;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    font-style: italic;
+    color: white;
   }
